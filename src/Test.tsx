@@ -62,7 +62,6 @@ const Test = memo(({ control }: { control: Control<any> }) => {
     control,
     name: "array",
   });
-  console.log("Test");
 
   return (
     <>

@@ -11,14 +11,14 @@ const Page = () => {
   });
   const {
     handleSubmit,
-    // formState: { errors },
+    formState: { errors },
   } = methods;
 
   const onSubmit = useCallback((data: any) => {
     console.log(data);
   }, []);
-  // console.log("rerender main form errors: ", errors);
-  console.log("rerender main form");
+  console.log("rerender main form errors: ", errors);
+  // console.log("rerender main form");
 
   return (
     <FormProvider {...methods}>
